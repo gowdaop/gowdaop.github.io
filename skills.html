@@ -138,6 +138,16 @@
 
         .skill-item {
             margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .skill-item i {
+            font-size: 2rem;
+            color: #ff3f3f;
+            margin-right: 1.5rem;
+            width: 3rem;
+            text-align: center;
         }
 
         .skill-name span {
@@ -148,6 +158,7 @@
             padding: 1rem 0;
             border-bottom: 0.1rem solid rgba(183, 75, 75, 0.3);
             transition: 0.3s ease;
+            flex: 1;
         }
 
         .skill-name span:hover {
@@ -252,6 +263,15 @@
             .skill-name span {
                 font-size: 1.4rem;
             }
+
+            .skill-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .skill-item i {
+                margin-bottom: 0.5rem;
+            }
         }
     </style>
 </head>
@@ -260,11 +280,9 @@
         <a href="#" class="logo">Gowda</a>
         <nav>
             <a href="index.html">Home</a>
-            
             <a href="#" class="active">Skills</a>
             <a href="education.html" >Education</a>
-            
-            <a href="#" >Contact</a>
+            <a href="projects.html" >Projects</a>
         </nav>
     </header>
 
@@ -281,21 +299,25 @@
                     Frontend Development
                 </h3>
                 <div class="skill-item">
+                    <i class="fab fa-html5"></i>
                     <div class="skill-name">
                         <span>HTML5</span>
                     </div>
                 </div>
                 <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
                     <div class="skill-name">
                         <span>CSS3</span>
                     </div>
                 </div>
                 <div class="skill-item">
+                    <i class="fab fa-js-square"></i>
                     <div class="skill-name">
                         <span>JavaScript</span>
                     </div>
                 </div>
                 <div class="skill-item">
+                    <i class="fab fa-react"></i>
                     <div class="skill-name">
                         <span>React</span>
                     </div>
@@ -308,21 +330,25 @@
                     Backend Development
                 </h3>
                 <div class="skill-item">
+                    <i class="fab fa-python"></i>
                     <div class="skill-name">
                         <span>Python</span>
                     </div>
                 </div>
                 <div class="skill-item">
+                    <i class="fab fa-java"></i>
                     <div class="skill-name">
                         <span>Java</span>
                     </div>
                 </div>
                 <div class="skill-item">
+                    <i class="fas fa-database"></i>
                     <div class="skill-name">
                         <span>SQL</span>
                     </div>
                 </div>
                 <div class="skill-item">
+                    <i class="fab fa-git-alt"></i>
                     <div class="skill-name">
                         <span>Git</span>
                     </div>
@@ -331,17 +357,43 @@
 
             <div class="skill-category">
                 <h3 class="category-title">
-                    <i class="fas fa-paint-brush"></i>
-                    Design Tools
+                    <i class="fas fa-layer-group"></i>
+                    Frameworks & Libraries
                 </h3>
                 <div class="skill-item">
+                    <i class="fab fa-bootstrap"></i>
                     <div class="skill-name">
-                        <span>Photoshop</span>
+                        <span>Bootstrap</span>
                     </div>
                 </div>
                 <div class="skill-item">
+                    <i class="fas fa-fire"></i>
                     <div class="skill-name">
-                        <span>CapCut</span>
+                        <span>Flask</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <div class="skill-name">
+                        <span>Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-bolt"></i>
+                    <div class="skill-name">
+                        <span>Express.js</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-npm"></i>
+                    <div class="skill-name">
+                        <span>npm</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-leaf"></i>
+                    <div class="skill-name">
+                        <span>MongoDB</span>
                     </div>
                 </div>
             </div>
